@@ -25,7 +25,7 @@ export default withMermaid(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Creation', link: '/creation' },
-        { text: 'Installation', link: '/installation' },
+        { text: 'Installation', link: '/installing' },
       ],
   
       // sidebar: [
