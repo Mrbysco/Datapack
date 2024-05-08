@@ -1,0 +1,25 @@
+{
+  "name": "datapack-tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial on creating and adding a datapack to the world",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "minecraft",
+    "tutorial",
+    "datapack",
+    "creation",
+    "installation"
+  ],
+  "author": "Mrbysco",
+  "license": "MIT",
+  "devDependencies": {
+    "mermaid": "^10.9.0",
+    "vitepress": "^1.1.4",
+    "vitepress-plugin-mermaid": "^2.0.16"
+  }
+}
