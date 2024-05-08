@@ -26,6 +26,7 @@ export default withMermaid(
         { text: 'Home', link: '/' },
         { text: 'Creation', link: '/creation' },
         { text: 'Installation', link: '/installing' },
+        { text: 'Tools', link: '/tools' },
       ],
   
       // sidebar: [
