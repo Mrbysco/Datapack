@@ -15,7 +15,9 @@ hero:
 features:
   - title: Creation
     details: A tutorial for making a basic recipe adding datapack
+    link: creation
   - title: Installation
-    details: (Coming Soon)
+    details: A tutorial for installing datapacks into Minecraft
+    link: installation/vanilla
 ---
 
