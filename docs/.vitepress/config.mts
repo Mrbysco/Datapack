@@ -8,12 +8,13 @@ export default withMermaid(
     description: "Resource for Minecraft datapack development ",
     lang: 'en-US',
     head: [
-        [
-          'script',
-          {
-              src: 'https://kit.fontawesome.com/81e725f0b7.js',
-              crossorigin: 'anonymous',
-          },
+      ["link", { rel: "icon", href: "/icon.png" }],
+      [
+        'script',
+        {
+            src: 'https://kit.fontawesome.com/81e725f0b7.js',
+            crossorigin: 'anonymous',
+        },
       ],
     ],
     themeConfig: {
