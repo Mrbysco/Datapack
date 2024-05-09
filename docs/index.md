@@ -16,8 +16,11 @@ features:
   - title: Creation
     details: A tutorial for making a basic recipe adding datapack
     link: creation
-  - title: Installation
+  - title: Vanilla Installation
     details: A tutorial for installing datapacks into Minecraft
     link: installation/vanilla
+  - title: Using Open Loader
+    details: A tutorial for installing datapacks using Open Loader
+    link: installation/open-loader
 ---
 
