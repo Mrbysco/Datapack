@@ -16,7 +16,7 @@ The following steps will guide you through installing a datapack using Global Pa
 ### 1. **Install Global Packs:**
   - **CurseForge**
     - Install the mod from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/drp-global-datapack) either manually or through the CurseForge launcher or your mod launcher of choice.
-  - **ModRinth**
+  - **Modrinth**
     - Install the mod from [Modrinth](https://modrinth.com/mod/globalpacks).
 
 ### 2. **Locate the instance folder:**

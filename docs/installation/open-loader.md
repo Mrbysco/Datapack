@@ -17,7 +17,7 @@ The following steps will guide you through installing a datapack using Open Load
   - **CurseForge**
     - Install the mod from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/open-loader) either manually or through the CurseForge launcher or your mod launcher of choice.
     - Start up the game once.
-  - **ModRinth**
+  - **Modrinth**
     - Install the mod from [Modrinth](https://modrinth.com/mod/open-loader).
     - Start up the game once.
 
