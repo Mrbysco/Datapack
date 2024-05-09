@@ -40,7 +40,8 @@ export default withMermaid(
             {
               text: 'Modded',
               items: [
-                { text: 'Open Loader', link: '/installation/open-loader' }
+                { text: 'Open Loader', link: '/installation/open-loader' },
+                { text: 'Global Packs', link: '/installation/global-packs' },
               ]
             }
           ]
