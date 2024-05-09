@@ -40,7 +40,7 @@ The following steps will guide you through installing a datapack using Open Load
   - Open the `openloader` folder
   - Open the `data` folder
 
-### 3. **Copy Datapack:**
+### 4. **Copy Datapack:**
    - Copy the datapack into the folder.
 
 ## Additional Methods (Windows)
