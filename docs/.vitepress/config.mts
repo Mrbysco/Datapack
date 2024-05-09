@@ -18,6 +18,7 @@ export default withMermaid(
       ],
       ['meta', { name: 'author', content: "Mrbysco" }],
     ],
+    cleanUrls: true,
     themeConfig: {
       // logo: "/assets/images/icon.png",
       search: {
