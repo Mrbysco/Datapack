@@ -5,7 +5,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 export default withMermaid(
   defineConfig({
     title: "Datapack Tutorials",
-    description: "Resource for Minecraft datapack development ",
+    description: "Resource for Minecraft datapack development",
     lang: 'en-US',
     head: [
       ["link", { rel: "icon", href: "/assets/images/icon.png" }],
@@ -16,6 +16,7 @@ export default withMermaid(
             crossorigin: 'anonymous',
         },
       ],
+      ['meta', { name: 'author', content: "Mrbysco" }],
     ],
     themeConfig: {
       // logo: "/assets/images/icon.png",
