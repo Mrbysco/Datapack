@@ -8,7 +8,7 @@ export default withMermaid(
     description: "Resource for Minecraft datapack development ",
     lang: 'en-US',
     head: [
-      ["link", { rel: "icon", href: "/icon.png" }],
+      ["link", { rel: "icon", href: "/assets/images/icon.png" }],
       [
         'script',
         {
@@ -18,6 +18,7 @@ export default withMermaid(
       ],
     ],
     themeConfig: {
+      // logo: "/assets/images/icon.png",
       search: {
         provider: 'local'
       },
