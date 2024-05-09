@@ -17,10 +17,13 @@ features:
     details: A tutorial for making a basic recipe adding datapack
     link: creation
   - title: Vanilla Installation
-    details: A tutorial for installing datapacks into Minecraft using the `datapacks` folder
+    details: A tutorial for installing datapacks into Minecraft using the datapacks folder
     link: installation/vanilla
   - title: Using Open Loader
-    details: A tutorial for installing datapacks using Open Loader
+    details: A tutorial for installing datapacks using the Open Loader mod
     link: installation/open-loader
+  - title: Using Global Packs
+    details: A tutorial for installing datapacks using the Global Packs mod
+    link: installation/global-packs
 ---
 
