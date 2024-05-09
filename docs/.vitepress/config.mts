@@ -28,7 +28,23 @@ export default withMermaid(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Creation', link: '/creation' },
-        { text: 'Installation', link: '/installing' },
+        {
+          text: 'Installation',
+          items: [
+            {
+              text: 'Vanilla',
+              items: [
+                { text: 'Datapacks Folder', link: '/installation/vanilla' },
+              ]
+            },
+            {
+              text: 'Modded',
+              items: [
+                { text: 'Open Loader', link: '/installation/open-loader' }
+              ]
+            }
+          ]
+        },
         { text: 'Tools', link: '/tools' },
       ],
   
