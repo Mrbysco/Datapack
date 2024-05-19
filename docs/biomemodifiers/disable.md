@@ -1,9 +1,3 @@
-<script setup>
-import { ref } from 'vue'
-
-const count = ref(0)
-</script>
-
 # Biome Modifiers
 Biome Modifiers are a system added to Forge 1.19 for modifying biomes. They can be used to add world generation aspects or entity spawns to biomes without requiring java code.
 
