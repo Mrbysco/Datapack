@@ -44,6 +44,12 @@ export default withMermaid(
                 { text: 'Open Loader', link: '/installation/open-loader' },
                 { text: 'Global Packs', link: '/installation/global-packs' },
               ]
+            },
+            {
+              text: 'Biome Modifiers',
+              items: [
+                { text: 'Disabling', link: '/biomemodifiers/disable' }
+              ]
             }
           ]
         },
