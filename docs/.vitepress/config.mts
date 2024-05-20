@@ -48,7 +48,8 @@ export default withMermaid(
             {
               text: 'Biome Modifiers',
               items: [
-                { text: 'Disabling', link: '/biomemodifiers/disable' }
+                { text: 'Disabling', link: '/biomemodifiers/disable' },
+                { text: 'Generator', link: '/biomemodifiers/generator' },
               ]
             }
           ]
