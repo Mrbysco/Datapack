@@ -159,7 +159,7 @@ Features:
 
 <div class="info">
 
-<div v-if="type == 'add_features'">
+<div v-if="type == 'add_features'" class="add-features-info">
 
 ## Add Features
 
@@ -182,7 +182,7 @@ An example of a biome modifier that mimics how bamboo gets added to jungles in c
 ```
 
 </div>
-<div v-if="type == 'remove_features'">
+<div v-if="type == 'remove_features'" class="remove-features-info">
 
 ## Remove Features
 
@@ -205,7 +205,7 @@ An example of a biome modifier that will remove bamboo from jungles
 ```
 
 </div>
-<div v-if="type == 'add_spawns'">
+<div v-if="type == 'add_spawns'" class="add-spawns-info">
 
 ## Add spawns
 
@@ -234,7 +234,7 @@ An example of a biome modifier that that mimics how cows are added to jungles in
 ```
 
 </div>
-<div v-if="type == 'remove_spawns'">
+<div v-if="type == 'remove_spawns'" class="remove-spawns-info">
 
 ## Remove spawns
 
