@@ -157,6 +157,109 @@ Features:
   <pre class="shiki shiki-themes github-light github-dark vp-code">{{ output }}</pre>
 </div>
 
+<div class="info">
+
+<div v-if="type == 'add_features'">
+
+## Add Features
+
+The `add_features` biome modifier type allows you to add placed features to biomes.
+
+The parameters required are the following:
+
+* **biomes** - Accepts a biome id, [list of biome ids], or #namespace:biome_tag
+* **features** - Accepts a placed feature id, [list of placed feature ids], or #namespace:feature_tag
+* **step** - Specifies the generation step the feature will get added into (See generation steps section of the [wiki](https://minecraft.wiki/w/Custom_biome) )
+
+An example of a biome modifier that mimics how bamboo gets added to jungles in code:
+```json
+{
+    "type": "neoforge:add_features",
+    "biomes": "#minecraft:is_jungle",
+    "features": "minecraft:bamboo_vegetation",
+    "decoration": "vegetal_decoration"
+}
+```
+
+</div>
+<div v-else-if="type == 'remove_features'">
+
+## Remove Features
+
+The `remove_features` biome modifier type allows you to remove placed features from biomes.
+
+The parameters required are the following:
+
+* **biomes** - Accepts a biome id, [list of biome ids], or #namespace:biome_tag
+* **features** - Accepts a placed feature id, [list of placed feature ids], or #namespace:feature_tag
+* **step** - Specifies the generation step the feature will be removed from (See generation steps section of the [wiki](https://minecraft.wiki/w/Custom_biome) )
+
+An example of a biome modifier that will remove bamboo from jungles
+```json
+{
+    "type": "neoforge:remove_features",
+    "biomes": "#minecraft:is_jungle",
+    "features": "minecraft:bamboo_vegetation",
+    "decoration": "vegetal_decoration"
+}
+```
+
+</div>
+<div v-else-if="type == 'add_spawns'">
+
+## Add spawns
+
+The `add_spawns` biome modifier type allows you to add mob spawns to a biome.
+
+The parameters required are the following:
+
+* **biomes** - Accepts a biome id, [list of biome ids], or #namespace:biome_tag
+* **type** - Type of mob to spawn
+* **weight** - The spawn weight (must be above 0)
+* **minCount** - The minimum group size (must be above 0)
+* **maxCount** - The maximum group size (must be above 0)
+
+An example of a biome modifier that that mimics how cows are added to jungles in code:
+```json
+{
+    "type": "neoforge:add_spawns",
+    "biomes": "#minecraft:is_jungle",
+    "spawners": {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+    }
+}
+```
+
+</div>
+<div v-else-if="type == 'remove_spawns'">
+
+## Remove spawns
+
+The `remove_spawns` biome modifier type allows you to remove mob spawns from a biome.
+
+The parameters required are the following:
+
+* **biomes** - Accepts a biome id, [list of biome ids], or #namespace:biome_tag
+* **entity_types** - Accepts a entity id, [list of entity ids], or a #namespace:entity_tag
+
+An example of a biome modifier that that will remove cows from jungles
+```json
+{
+    "type": "neoforge:add_spawns",
+    "biomes": "#minecraft:remove_spawns",
+    "entity_types": "minecraft:cow"
+}
+```
+
+</div>
+
+</div>
+
+
+
 <style>
 .btn {
     border: 1px solid #161618;
