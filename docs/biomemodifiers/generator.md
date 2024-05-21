@@ -248,8 +248,8 @@ The parameters required are the following:
 An example of a biome modifier that that will remove cows from jungles
 ```json
 {
-    "type": "neoforge:add_spawns",
-    "biomes": "#minecraft:remove_spawns",
+    "type": "neoforge:remove_spawns",
+    "biomes": "#minecraft:is_jungle",
     "entity_types": "minecraft:cow"
 }
 ```
