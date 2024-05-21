@@ -182,7 +182,7 @@ An example of a biome modifier that mimics how bamboo gets added to jungles in c
 ```
 
 </div>
-<div v-else-if="type == 'remove_features'">
+<div v-if="type == 'remove_features'">
 
 ## Remove Features
 
@@ -205,7 +205,7 @@ An example of a biome modifier that will remove bamboo from jungles
 ```
 
 </div>
-<div v-else-if="type == 'add_spawns'">
+<div v-if="type == 'add_spawns'">
 
 ## Add spawns
 
@@ -234,7 +234,7 @@ An example of a biome modifier that that mimics how cows are added to jungles in
 ```
 
 </div>
-<div v-else-if="type == 'remove_spawns'">
+<div v-if="type == 'remove_spawns'">
 
 ## Remove spawns
 
