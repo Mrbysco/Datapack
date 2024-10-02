@@ -4,14 +4,16 @@ This repository serves as a guide for Minecraft datapack creation. Whether you'r
 
 ## Tutorials
 
+### Creation
 - [Creating a Datapack](https://datapacks.mrbysco.dev/creation)
+### Installation
 - [Installing a Datapack](https://datapacks.mrbysco.dev/installation/vanilla)
-- [Open Loader](https://datapacks.mrbysco.dev/installation/open-loader)
-- [Global Packs](https://datapacks.mrbysco.dev/installation/global-packs)
-
+- [Installing using Open Loader](https://datapacks.mrbysco.dev/installation/open-loader)
+- [Installing using Global Packs](https://datapacks.mrbysco.dev/installation/global-packs)
+### Configuration
 - [Disabling a Biome Modifier](https://datapacks.mrbysco.dev/biomemodifiers/disable)
 - [Simple Biome Modifier Generator](https://datapacks.mrbysco.dev/biomemodifiers/generator)
-
+### Other
 - [Helpful tools](https://datapacks.mrbysco.dev/tools)
 
 ## Contribution
