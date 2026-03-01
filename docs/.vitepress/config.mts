@@ -74,7 +74,7 @@ export default withMermaid(
   
       footer: {
         message: "This website is not associated with Mojang or Microsoft",
-        copyright: "Copyright © 2024 Mrbysco",
+        copyright: "Copyright © 2026 Mrbysco",
       },
     },
   })
