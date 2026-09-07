@@ -39,7 +39,7 @@ const output = computed(() => {
         type: loader.value + ":" + type.value,
         biomes: match.exec(biomes.value) ? biomes.value.toLowerCase().split(/\r?\n/) : biomes.value.toLowerCase(),
         features: match.exec(features.value) ? features.value.toLowerCase().split(/\r?\n/) : features.value.toLowerCase(),
-        decoration: decorationStep.value
+        step: decorationStep.value
       }, null, 4)
     }
   } else if (type.value == 'remove_features') {
@@ -177,7 +177,7 @@ An example of a biome modifier that mimics how bamboo gets added to jungles in c
     "type": "neoforge:add_features",
     "biomes": "#minecraft:is_jungle",
     "features": "minecraft:bamboo_vegetation",
-    "decoration": "vegetal_decoration"
+    "step": "vegetal_decoration"
 }
 ```
 
@@ -192,7 +192,7 @@ The parameters required are the following:
 
 * **biomes** - Accepts a biome id, [list of biome ids], or #namespace:biome_tag
 * **features** - Accepts a placed feature id, [list of placed feature ids], or #namespace:feature_tag
-* **step** - Specifies the generation step the feature will be removed from (See generation steps section of the [wiki](https://minecraft.wiki/w/Custom_biome) )
+* **steps** - Specifies the generation step or steps the feature will be removed from [Optional] (See generation steps section of the [wiki](https://minecraft.wiki/w/Custom_biome) )
 
 An example of a biome modifier that will remove bamboo from jungles
 ```json
@@ -200,7 +200,7 @@ An example of a biome modifier that will remove bamboo from jungles
     "type": "neoforge:remove_features",
     "biomes": "#minecraft:is_jungle",
     "features": "minecraft:bamboo_vegetation",
-    "decoration": "vegetal_decoration"
+    "steps": "vegetal_decoration"
 }
 ```
 
